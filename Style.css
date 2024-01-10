@@ -1,0 +1,560 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Blender Pro Bold";
+}
+
+/*nav pic*/
+
+.nav_img{
+    background-image: url("images/MY24-KTM-450-SX-F-FACTORY-homepage.jpeg");
+    background-size: cover;
+   
+    height: 607px;
+    
+    
+}
+
+.nav_bar{
+    height: 145px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.nav_optionn {
+    display: flex;
+    width: 895px;
+    padding-right: 25px;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.11111em;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav_optionn a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* nav location */
+.nav_location{
+    padding-left: 23px;
+    display: flex;
+}
+
+.nav_location i{
+font-size: 20px;
+color: #f60;
+}
+
+.icon_2{
+    margin-left: 28px;
+}
+
+
+
+/* nav logo image */
+.nav_logo_image{
+
+    background-image: url(images/37860_KTM_LogoPodium_orange_RGB.jpg);
+    background-size: cover;
+     width: 161.02px;
+     height: 145px;
+     background-color: red;
+
+}
+
+.nav_rightside{
+    display: flex;
+    align-items: center;
+    width: 291px;
+    justify-content: space-between;
+}
+
+
+/*nav_head*/
+.nav_heading{
+    color: white;
+    text-align: center;
+   
+}
+.first_heading{
+    margin-top: 70px;
+    font-weight: 700;
+    font-size: 24px;
+}
+.second-hading{
+    font-size: 85px;
+    font-weight: bold;
+}
+
+/*nav buttons*/
+
+.nav_button{
+    width: 225px;
+    height: 75px;
+    background-color: rgb(255, 102, 0);
+    color: white;
+    border:none;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 34px;
+    cursor: pointer;
+}
+.nav_button:hover{
+transition-duration: 600ms;
+background: transparent;
+border: 1px solid #f60;
+color: #f60;
+}
+
+
+/* Contant part */
+
+.first_space{
+    height: 80px;
+    width: 100%;
+}
+
+
+
+/* banner 1 after first space*/
+
+.first_banner{
+    width: 100%;
+    height: 355.312px;
+    cursor: pointer;
+    
+
+}
+
+.banner_img{
+    width: 1269px;
+    height: 355px;
+    background-color: yellow;
+    background-image: url(images/First-banner.jpeg);
+    background-size: cover;
+    margin-left: 40px;
+
+}
+
+.banner1_message{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    width: 1269px;
+    height: 355px;
+    
+}
+
+.banner1_first_para{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.banner1_second_para{
+    font-size: 85px;
+    font-weight: 800;
+}
+
+.banner1_message:hover{
+    transition-duration:700ms ;
+    visibility: hidden;
+}
+
+/* ktm model image section*/
+
+.Ktm_models{
+    width: 100%;
+    height: 387px;
+    
+    display: flex;
+    justify-content:space-evenly;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+
+.modelbox{
+    height: 387px;
+    width: 410px;
+    cursor: pointer;
+}
+
+.model_img{
+    width: 410px;
+    height: 308px;
+    background-color: white;
+}
+
+.img1{
+    background-image: url(images/ktm\ naked.jpeg);
+    background-size: cover;
+    width: 410px;
+    height: 308px;
+
+}
+.img2{
+    background-image: url(images/ktm.travel.jpeg);
+    background-size: cover;
+    width: 410px;
+    height: 308px;
+
+}
+.img3{
+    background-image: url(images/ktm_supersport.jpeg);
+    background-size: cover;
+    width: 410px;
+    height: 308px;
+
+}
+
+.img_first_p{
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    font-weight: bold;
+}
+.img_second_p{
+    
+    font-size: 30px;
+    font-weight:800;
+    font-weight: bold;
+}
+
+/* ktm updation */
+
+.ktm_updates{
+    height:708px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 39px;
+    padding-right: 39px;
+}
+
+.upda_box{
+    height:708px ;
+    width: 386px;
+   
+}
+
+.updimg{
+    height:387px;
+    width: 386px;
+    
+}
+
+.updation_img1{
+    height:387px;
+    width: 386px;
+    background-image: url(images/Red\ Bull\ KTM\ Factory\ Racing\ -\ 2024\ Dakar\ Rally\ preview.jpg);
+    background-size: cover;
+    
+}
+.updation_img2{
+    height:387px;
+    width: 386px;
+    background-image: url(images/Manuel\ Lettenbichler\ -\ Red\ Bull\ KTM\ Factory\ Racing\ -\ 2024\ SuperEnduro\ Round\ 2_\ Poland-1.jpg);
+    background-size: cover;
+    
+}
+.updation_img3{
+    height:387px;
+    width: 386px;
+    background-image: url(images/Matthias\ Walkner\ -\ Red\ Bull\ KTM\ Factory\ Racing-2.jpg);
+    background-size: cover;
+    
+}
+
+.updation_1_p{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 26px;
+}
+.updation_2_p{
+    font-size:36px;
+    font-weight: 800;
+    margin-top: 26px;
+    line-height: 35px;
+}
+.updation_3_p{
+    margin-top: 35px;
+    font-size: 19px;
+    line-height: 27px;
+}
+
+/* advertising section */
+
+.last_space{
+    height: 90px;
+    width: 100%;
+}
+
+.adverting_section{
+    width: 100%;
+    height: 476px;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.advertising_images{
+    width: 635px;
+    height: 476px;
+    
+    
+    
+}
+
+.ad_img{
+    width: 317.5px;
+    height: 238px;
+    float: left;
+    
+}
+
+.adv_img1{
+    width: 317.5px;
+    height: 238px;
+    background-image: url(images/1.webp);
+    background-size: cover;
+}
+.adv_img2{
+    width: 317.5px;
+    height: 238px;
+    background-image: url(images/2.webp);
+    background-size: cover;
+}
+.adv_img3{
+    width: 317.5px;
+    height: 238px;
+    background-image: url(images/3.webp);
+    background-size: cover;
+}
+.adv_img4{
+    width: 317.5px;
+    height: 238px;
+    background-image: url(images/4.webp);
+    background-size: cover;
+}
+
+.advertising_message{
+    width: 635px;
+    height: 476px;
+    background: #000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 110px;
+    padding-bottom: 90px;
+}
+
+
+.advertising_h3{
+    height: 98px;
+    width: 454px;
+    text-align: center;
+    
+    font-size:47px;
+    font-weight: 800;
+    font-stretch: 100%;
+    line-height: 52px;
+}
+
+.advertising_hr{
+    height: 30px;
+    width:454px ;
+    border-color: #bdbdbd;
+    padding-left: 194px;
+    padding-right: 194px;
+    margin-top: 20px;
+    
+}
+.advertising_para{
+    height: 53px;
+    width:454px ;
+    text-align: center;
+    
+    
+}
+.advertising_para{
+    font-size:18px;
+    margin-top: 23px;
+    color: #bdbdbd;
+    font-family: "Trade Gothic LT W01 Light";
+}
+
+.adv-button{
+    width: 183px;
+    height: 71px;
+    cursor: pointer;
+    color: white;
+    background-color: #000;
+    border: 1px solid white;
+    font-family: "Trade Gothic LT W01 Light";
+    font-size: 16.2px;
+    font-weight: 700;
+    transition: 300ms;
+
+}
+
+.adv-button:hover{
+    color: #f60;
+    border:1px solid #f60;
+}
+
+
+/* last sign button */
+
+.last_Singn_button{
+    width: 100%;
+    height: 211px;
+   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last_sign_button_par{
+    font-size: 23.4px;
+    font-weight: 700;
+    margin: 18px;
+}
+
+.last_sign_button{
+    width: 166px;
+    height: 74px;
+    font-size: 20px;
+    line-height: 28px;
+    background-color: transparent;
+    border: 1px solid #f60;
+    color:#f60 ;
+    cursor: pointer;
+    
+}
+
+.last_sign_button:hover{
+    transition-duration: 300ms;
+    background: #f60;
+    color: white;
+
+}
+
+
+/* last contant section*/
+
+.last_contant{
+    width: 100%;
+    height: 242px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last_contant{
+    border-top: 1px solid #bdbdbd;
+}
+.last_contant p{
+    max-width: 790px;
+    text-align: center;
+    font-size: 13.5px;
+    color: #bdbdbd;
+    font-family: "Trade Gothic LT W01 Light";
+    line-height: 28px;
+}
+
+
+/* footer section */
+.footer{
+    width: 100%;
+    height: 636.92px;
+    background: #000;
+    padding-top: 80px;
+    color: white;
+    
+}
+.footer_body{
+    width: 1269px;
+    height: 435px;
+    color: white;
+    display: flex;
+    /* padding-right: 40px; */
+    margin-left: 42px;
+    justify-content: space-between;
+    line-height: 35px;
+    border-bottom: 1px solid white;
+}
+
+
+
+.footer_collections h3{
+  font-weight: 700;
+  font-size: 23.94px;
+  margin-bottom: 13px;
+}
+
+
+.footer_ul li{
+    font-family: "Trade Gothic LT W01 Light";
+    font-size :18px;
+}
+.footer_ul{
+    padding-left: 0px;
+    list-style: none;
+}
+
+.footer_ul li:hover{
+color:#f60;
+cursor: pointer;
+}
+/* last footer icons face insta twitter */
+
+.footer_icons{
+    display: flex;
+}
+
+.foot_img{
+    height: 25px;
+    margin-right: 32px;
+}
+
+.last_div_copyright{
+    height: 122px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 41px;
+    padding-right: 40px;
+}
+
+.copyright_1para{
+    font-size: 13.5px;
+    font-family: "Trade Gothic LT W01 Light";
+    color: #bdbdbd;
+}
+
+.copyright_2para{
+    font-weight: 700;
+    color: #f60;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+span{
+    margin-left: 13px;
+}
